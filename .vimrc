@@ -6,7 +6,21 @@ set tabstop=2
 " set indent to correspond to a single tab (same num of spaces)
 set shiftwidth=2
 " numbers on 
-set number
+" set number
+" underline
+set cursorline
+
+" dir of currently editing file with returning to netrw
+set autochdir
+
+" show full path of editing file 
+set statusline+=%F
+
+" what time is it? 
+map <F2> :echo 'Current time is ' . strftime('%c')<CR>
+
+" back key, return to last buffer
+map <F1> :b#<CR>
 
 colorscheme elflord 
 
