@@ -27,6 +27,9 @@ colorscheme elflord
 " enable mouse scroll in osx
 set mouse=a
 
+" send more characters for redraws
+set ttyfast 
+
 " default cursor options
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
