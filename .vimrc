@@ -36,3 +36,13 @@ highlight iCursor guifg=white guibg=steelblue
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
+
+"folding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+"Then you can toggle folding with za. You can fold everything with zM and
+"unfold everything with zR. zm and zr can be used to get those folds just
+"right. Always remember the almighty help file at “help :folding” if you get
+"stuck.
