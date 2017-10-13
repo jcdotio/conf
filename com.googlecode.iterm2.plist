@@ -205,9 +205,9 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/conf</string>
+	<string>~/.jc/conf</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
+	<string>{884, 596}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -244,12 +244,16 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 2560 1600 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 100 918 495 0 0 1920 1200 </string>
+	<string>422 331 918 381 0 0 2560 1577 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1920 1200 0 0 1920 1177 </string>
+	<string>512 18 1394 1153 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 1920 1200 0 0 1920 1177 </string>
+	<string>4 1125 650 452 0 0 2560 1577 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>289 86 650 452 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -483,12 +487,16 @@
 			<false/>
 			<key>Foreground Color</key>
 			<dict>
-				<key>Blue Component</key>
+				<key>Alpha Component</key>
 				<real>1</real>
+				<key>Blue Component</key>
+				<real>0.9988551139831543</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.70980393886566162</real>
+				<real>0.86881744861602783</real>
 				<key>Red Component</key>
-				<real>0.14117647707462311</real>
+				<real>0.11010684072971344</real>
 			</dict>
 			<key>Guid</key>
 			<string>7DDE6051-9357-46AE-A6CB-79D0AD7B9347</string>
@@ -1029,7 +1037,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/john/conf</string>
+	<string>/Users/john/.jc/conf</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
