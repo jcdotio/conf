@@ -4,9 +4,9 @@ set expandtab
 " tab chars appear as 2 spaces
 set tabstop=2
 " fix annonying random tabs making
-set softtabstop=0 noexpandtab
+set softtabstop=0 
 " set indent to correspond to a single tab (same num of spaces)
-set shiftwidth=2
+set shiftwidth=1
 " numbers on 
 " set number
 " underline
