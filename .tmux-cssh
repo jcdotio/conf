@@ -1,0 +1,4 @@
+kub-dev-master:-sc 172.17.21.126 
+kub-dev-controllers:-sc 172.17.21.125 172.17.21.103 172.17.20.84
+kub-dev-workers:-sc 172.17.23.232 172.17.23.195 172.17.22.190
+all:-sc kub-dev-master -cs kub-dev-controllers -cs kub-dev-workers
