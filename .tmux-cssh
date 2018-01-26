@@ -1,0 +1,3 @@
+test-dev-ctls:-sc 172.18.70.68 -sc 172.18.70.247 -sc 172.18.70.162
+test-dev-wrkrs:-sc 172.18.90.169 -sc 172.18.100.36 -sc 172.18.80.37
+test-dev-all:-cs test-dev-ctls -cs test-dev-wrkrs
