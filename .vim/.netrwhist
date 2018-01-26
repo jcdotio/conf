@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/john/.jc/.git/objects'
-let g:netrw_dirhist_2='/Users/john/.jc/.git/objects/02'
-let g:netrw_dirhist_3='/Users/john/.jc/secrets/pem'
-let g:netrw_dirhist_4='/Users/john'
-let g:netrw_dirhist_5='/Users/john/VirtualBox VMs'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/jc_io'
+let g:netrw_dirhist_2='/Users/jc_io/.config'
+let g:netrw_dirhist_3='/Users/jc_io'
+let g:netrw_dirhist_4='/Users/jc_io/jc'
+let g:netrw_dirhist_5='/Users/jc_io/jc/.pyenv'
+let g:netrw_dirhist_6='/Users/jc_io/jc'
+let g:netrw_dirhist_7='/Users/jc_io'
+let g:netrw_dirhist_8='/Users'

@@ -1,5 +1,6 @@
 # Bash RC File
-source /Users/john/.bash_profile
+source $HOME/.bash_profile
 
-#Alias for todo.py
-alias t='/Users/john/.jc/bin/todo.py'
+alias t='$HOME/.jc/bin/todo.py'
+alias jc='$HOME/.jc'
+alias activate='source $HOME/.jc/.pyenv/bin/activate'
