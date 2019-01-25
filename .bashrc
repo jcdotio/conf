@@ -1,5 +1,5 @@
 # Bash RC File
-source $HOME/.bash_profile
+source $HOME/.jc/src/conf/.bash_profile
 
 alias t='$HOME/.jc/bin/todo.py'
 alias jc='$HOME/.jc'
