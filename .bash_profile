@@ -1,5 +1,3 @@
-source "$HOME/.jc/src/conf/.bash_profile"
-
 export PATH="$PATH:$HOME/.jc/bin"
 
 #git info prompt
