@@ -1,0 +1,33 @@
+Kubernetes Renewing Certificates
+
+https://github.com/kubernetes/kubeadm/issues/581
+after 1.15 kubeadm upgrade automatically will renewal the certificates for you!
+also 1.15 added a command to check cert expiration in kubeadm
+Renew kubernetes pki after expired
+Kubernetes v1.15 provides docs for "Certificate Management with kubeadm":
+
+https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/
+Check certificate expiration:
+kubeadm alpha certs check-expiration
+Automatic certificate renewal:
+kubeadm renews all the certificates during control plane upgrade.
+Manual certificate renewal:
+You can renew your certificates manually at any time with the kubeadm alpha certs renew command.
+This command performs the renewal using CA (or front-proxy-CA) certificate and key stored in /etc/kubernetes/pki.
+
+For Kubernetes v1.14 I find this procedure the most helpful:
+
+https://stackoverflow.com/a/56334732/1147487
+backup and re-generate all certs:
+$ cd /etc/kubernetes/pki/
+$ mv {apiserver.crt,apiserver-etcd-client.key,apiserver-kubelet-client.crt,front-proxy-ca.crt,front-proxy-client.crt,front-proxy-client.key,front-proxy-ca.key,apiserver-kubelet-client.key,apiserver.key,apiserver-etcd-client.crt} ~/
+$ kubeadm init phase certs all --apiserver-advertise-address <IP>
+
+backup and re-generate all kubeconfig files:
+$ cd /etc/kubernetes/
+$ mv {admin.conf,controller-manager.conf,kubelet.conf,scheduler.conf} ~/
+$ kubeadm init phase kubeconfig all
+$ reboot
+
+copy new admin.conf:
+$ cp -i /etc/kubernetes/admin.conf $HOME/.kube/config

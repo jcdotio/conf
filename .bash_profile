@@ -20,3 +20,9 @@ alias connctl="tmux-cssh -u ubuntu -i ~/secrets/jb.pem -sc $minionctl"
 alias conndevctl="tmux-cssh -tl even-vertical -i ~/secrets/jb.pem -u ubuntu -cs test-dev-ctls"
 alias conndevwrkrs="tmux-cssh -tl even-vertical -i ~/secrets/jb.pem -u ubuntu -cs test-dev-wrkrs"
 alias conndevall="tmux-cssh -tl even-vertical -i ~/secrets/jb.pem -u ubuntu -cs test-dev-all"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jc_io/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/jc_io/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jc_io/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/jc_io/Downloads/google-cloud-sdk/completion.bash.inc'; fi

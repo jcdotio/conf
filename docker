@@ -1,0 +1,8 @@
+docker container stop $(docker container ls -aq)
+docker container rm $(docker container ls -aq)
+docker container prune --filter="label!=maintainer=Jeremy"
+
+#del all images last 24 hours
+docker image prune -a --filter "until=24h"
+
+docker volume rm $(docker volume ls -q)
