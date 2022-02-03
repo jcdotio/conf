@@ -1,5 +1,3 @@
-source "$HOME/.jc/.bash_profile"
-
 export PATH="$PATH:$HOME/.jc/bin"
 
 #git info prompt
@@ -26,3 +24,5 @@ if [ -f '/Users/jc_io/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/User
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jc_io/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/jc_io/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+export GIT_EDITOR=vim
+export GOPATH=$HOME/.jc/go
