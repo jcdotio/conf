@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../api.casbu.v2.go"
+		},
+		{
+			"path": "../devops"
+		},
+		{
+			"path": "../casbu-web"
+		}
+	],
+	"settings": {}
+}

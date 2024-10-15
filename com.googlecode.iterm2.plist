@@ -259,11 +259,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 100 605 501 0 0 2048 1255 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>445 200 918 498 0 0 2048 1255 </string>
+	<string>445 180 937 518 0 0 2048 1280 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 2048 1280 0 0 2048 1255 </string>
+	<string>0 0 2048 1280 0 0 2048 1280 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>632 414 650 458 0 0 2048 1280 </string>
+	<string>632 414 650 458 0 0 2048 1255 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>1364 53 650 458 0 0 2048 1255 </string>
 	<key>New Bookmarks</key>
@@ -367,12 +367,16 @@
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.78215533494949341</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.55098515272984239</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.0096368286758661496</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -425,12 +429,16 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.31248009204864502</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.16607038906979751</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.052069349273082821</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<true/>
@@ -463,12 +471,16 @@
 			<string></string>
 			<key>Cursor Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.65933314606804028</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.099586731922329363</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.96204984188079834</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -801,6 +813,19 @@
 					<string>[1;5F</string>
 				</dict>
 			</dict>
+			<key>Link Color</key>
+			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
+				<key>Blue Component</key>
+				<real>0.94804143905639648</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
+				<key>Green Component</key>
+				<real>0.92253150655836547</real>
+				<key>Red Component</key>
+				<real>0.89810442158196224</real>
+			</dict>
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
@@ -832,7 +857,7 @@
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
-			<true/>
+			<false/>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1119,6 +1144,6 @@
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
-	<false/>
+	<true/>
 </dict>
 </plist>
