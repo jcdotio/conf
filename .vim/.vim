@@ -1,1 +1,0 @@
-/Users/john/.jc/src/conf/.vim
